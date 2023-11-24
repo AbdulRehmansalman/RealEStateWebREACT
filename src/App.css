@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+.background-color {
+  background-image: linear-gradient( rgb(47, 50, 50), black);
+}
+/* Animation */
+.scale-up-center {
+  -webkit-animation: scale-up-center 0.4s ease-in-out alternate both;
+  animation: scale-up-center 0.4s ease-in-out alternate both;
+}
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.orange-text {
+  font-weight: 600;
+  color: rgb(254, 189, 66);
+  font-size: 1.5rem;
+}
+.primary-text {
+  font-weight: 600;
+  color: rgb(44, 7, 233);
+  font-size: 2rem;
+}
+.secondary-Text {
+  color: smokeWhite;
+  font-size: 1.4rem;
+}

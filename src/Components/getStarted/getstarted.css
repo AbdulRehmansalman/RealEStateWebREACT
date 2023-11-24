@@ -1,0 +1,226 @@
+.get-wrapper {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  border-radius: 7px;
+}
+.get-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  height: 16rem;
+  background-image: linear-gradient(rgb(97, 27, 27), rgb(20, 145, 198));
+  border-radius: 7px;
+  margin-bottom: 2rem;
+}
+.text-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text-wrap h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 3rem;
+  color: rgb(255, 231, 231);
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.description h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 2rem;
+  color: rgb(255, 231, 231);
+  margin-top: 0.8rem;
+}
+
+.description h4 {
+  display: flex;
+  margin-left: 5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 2rem;
+  color: #8c8b8b;
+}
+
+.get-btn {
+  font-size: 1.9rem;
+  row-gap: 1rem;
+  margin-top: 1.5rem;
+  border-radius: 5px solid rgb(10, 118, 242);
+}
+.g-btn {
+  color: white;
+  font-size: 1rem;
+  background: whitesmoke;
+  padding: 0.5rem 3rem;
+  background-image: linear-gradient(rgb(97, 27, 27), rgb(20, 145, 198));
+  font-weight: 600;
+  transition: all 0.5s ease-in-out;
+  border: 2px solid rgb(215, 215, 234);
+  border-radius: 7px;
+}
+.g-btn:hover {
+  font-size: 1rem;
+  background: rgb(4, 72, 150);
+  border-radius: 7px;
+  padding: 0.5rem 3rem;
+  color: #ebf2ff;
+  font-weight: 600;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+@media screen and (min-width: 360px) and (max-width: 500px) {
+  .get-wrapper {
+    margin-left: 3rem;
+    margin-right: 1.4rem;
+    border-radius: 7px;
+  }
+  .get-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    width: 95%;
+    height: 19.5rem;
+    background-image: linear-gradient(rgb(97, 27, 27), rgb(20, 145, 198));
+    border-radius: 9px;
+    margin-bottom: 2rem;
+  }
+
+  .text-wrap h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 3rem;
+    color: rgb(255, 231, 231);
+  }
+  .description h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: rgb(255, 231, 231);
+    margin-top: 0.8rem;
+  }
+  .description h3 {
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: whitesmoke;
+    margin-top: 0.8rem;
+  }
+  .description h4 {
+    display: flex;
+    margin-left: 3rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: whitesmoke;
+  }
+
+  .get-btn {
+    font-size: 1.9rem;
+    row-gap: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 5px solid rgb(10, 118, 242);
+  }
+  .g-btn {
+    color: white;
+    font-size: 1rem;
+    background: whitesmoke;
+    padding: 0.5rem 3rem;
+    background-image: linear-gradient(rgb(97, 27, 27), rgb(20, 145, 198));
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+    border: 2px solid rgb(215, 215, 234);
+    border-radius: 7px;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 1400px) {
+  .get-wrapper {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-radius: 7px;
+  }
+  .get-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    height: 18rem;
+    background-image: linear-gradient(rgb(97, 27, 27), rgb(20, 145, 198));
+    border-radius: 9px;
+    margin-bottom: 2rem;
+  }
+
+  .text-wrap h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 3rem;
+    color: rgb(255, 231, 231);
+  }
+
+  .description h3 {
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: whitesmoke;
+    margin-top: 0.8rem;
+  }
+  .description h4 {
+    display: flex;
+    margin-left: 3rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: whitesmoke;
+  }
+
+  .get-btn {
+    font-size: 1.9rem;
+    row-gap: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 5px solid rgb(10, 118, 242);
+  }
+  .g-btn {
+    color: white;
+    font-size: 1rem;
+    background: whitesmoke;
+    padding: 0.5rem 3rem;
+    background-image: linear-gradient(rgb(97, 27, 27), rgb(20, 145, 198));
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+    border: 2px solid rgb(215, 215, 234);
+    border-radius: 7px;
+  }
+}
+@media screen and (min-width: 1449px) and (max-width: 1470px) {
+  .description h4 {
+    display: flex;
+    margin-left: 5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2rem;
+    padding-left: 3rem;
+    color: #8c8b8b;
+  }
+}

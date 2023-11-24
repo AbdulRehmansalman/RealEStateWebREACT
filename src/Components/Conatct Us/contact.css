@@ -1,0 +1,919 @@
+.c-wrapper {
+  margin-bottom: 3rem;
+}
+.c-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.c-left {
+  margin-top: 3rem;
+}
+.upper-div {
+  padding-bottom: 0.5rem;
+}
+.upper-div h3 {
+  font-size: 1.6rem;
+  white-space: 2px;
+  line-height: 2.5rem;
+  color: rgb(252, 155, 0);
+  font-weight: 600;
+}
+.upper-div h2 {
+  font-size: 2.3rem;
+  white-space: 2px;
+  line-height: 3rem;
+  color: #1f3e72;
+  font-weight: 800;
+}
+.upper-div p {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  color: #8c8b8b;
+}
+/* !CardPart */
+.lower-div {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.rowCard {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2.3em;
+  padding-bottom: 1.4rem;
+}
+.card {
+  padding: 1rem;
+  width: 18rem;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  border: 5px solid whitesmoke;
+  transform: scale(1);
+  transition: all 0.4s ease-in-out;
+}
+.card:hover {
+  border-radius: 5px;
+  transform: scale(1.1);
+  transition: all 0.6s ease-in-out;
+}
+.start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo {
+  padding: 10px;
+  background: rgb(255, 239, 239);
+  border-radius: 7px;
+}
+.card-detail {
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.card-detail h3 {
+  font-size: 1.5rem;
+  white-space: 2px;
+  line-height: 2rem;
+  color: #1f3e72;
+  font-weight: 800;
+}
+.card-detail p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  color: #8c8b8b;
+}
+.card-btn {
+  font-size: 1.9rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+  margin-top: 1.5rem;
+  border-radius: 5px solid rgb(10, 118, 242);
+}
+.btn {
+  font-size: 1rem;
+  background: whitesmoke;
+  padding: 0.5rem 3rem;
+  color: rgb(10, 118, 242);
+  font-weight: 600;
+  transition: all 0.5s ease-in-out;
+  border: 2px solid rgb(215, 215, 234);
+  border-radius: 7px;
+}
+.btn:hover {
+  font-size: 1rem;
+  background: rgb(4, 72, 150);
+  border-radius: 7px;
+  padding: 0.5rem 3rem;
+  color: #ebf2ff;
+  font-weight: 600;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+/* Right Image  */
+.c-right {
+  margin-top: 2rem;
+  width: 30rem;
+  height: 34rem;
+  overflow: hidden;
+  border-radius: 15rem 15rem 0 0;
+  border: 8px solid rgb(245, 235, 235);
+  margin-bottom: 5rem;
+}
+.c-right img {
+  width: 100%;
+  height: 100%;
+}
+/* !media */
+@media screen and (min-width: 360px) and (max-width: 450px) {
+  .c-wrapper {
+    margin-bottom: 3rem;
+  }
+  .c-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .c-left {
+    margin-top: 3rem;
+  }
+  .upper-div {
+    padding-bottom: 0.5rem;
+    margin-left: 2rem;
+  }
+  .upper-div h3 {
+    font-size: 1.4rem;
+    white-space: 2px;
+    line-height: 2.5rem;
+    color: rgb(252, 155, 0);
+    font-weight: 600;
+  }
+  .upper-div h2 {
+    font-size: 2.1rem;
+    white-space: 2px;
+    line-height: 3rem;
+    color: #1f3e72;
+    font-weight: 800;
+  }
+  .upper-div p {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 1.5rem;
+    font-size: 1.15rem;
+    color: #8c8b8b;
+  }
+  /* !CardPart */
+  .lower-div {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rowCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2.3em;
+    padding-bottom: 1.4rem;
+  }
+  .card {
+    padding: 1rem;
+    width: 20rem;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 5px solid whitesmoke;
+    transform: scale(1);
+    transition: all 0.4s ease-in-out;
+  }
+  .card:hover {
+    border-radius: 5px;
+    transform: scale(1.1);
+    transition: all 0.6s ease-in-out;
+  }
+
+  .logo {
+    padding: 10px;
+    background: rgb(255, 239, 239);
+    border-radius: 7px;
+  }
+  .card-detail {
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .card-detail h3 {
+    font-size: 1.5rem;
+    white-space: 2px;
+    line-height: 2rem;
+    color: #1f3e72;
+    font-weight: 800;
+  }
+  .card-detail p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: #8c8b8b;
+  }
+  .card-btn {
+    font-size: 1.9rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 5px solid rgb(10, 118, 242);
+  }
+  .btn {
+    font-size: 1rem;
+    background: whitesmoke;
+    padding: 0.5rem 3rem;
+    color: rgb(10, 118, 242);
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+    border: 2px solid rgb(215, 215, 234);
+    border-radius: 7px;
+  }
+  .btn:hover {
+    font-size: 1rem;
+    background: rgb(4, 72, 150);
+    border-radius: 7px;
+    padding: 0.5rem 3rem;
+    color: #ebf2ff;
+    font-weight: 600;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
+  /* !Right Image  */
+  .c-right {
+    margin-top: 2rem;
+    width: 20.5rem;
+    height: 26rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgb(245, 235, 235);
+    margin-bottom: 5rem;
+  }
+  .c-right img {
+    width: 100%;
+    height: 100%;
+  }
+}
+/* 620 */
+@media screen and (min-width: 451px) and (max-width: 560px) {
+  .c-wrapper {
+    margin-bottom: 2.5rem;
+  }
+  .c-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .c-left {
+    margin-top: 3rem;
+  }
+  .upper-div {
+    padding-bottom: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .upper-div h3 {
+    font-size: 1.7rem;
+    white-space: 2px;
+    line-height: 2.3rem;
+    color: rgb(252, 155, 0);
+    font-weight: 600;
+  }
+  .upper-div h2 {
+    font-size: 2.1rem;
+    white-space: 2px;
+    line-height: 3rem;
+    color: #1f3e72;
+    font-weight: 800;
+  }
+  .upper-div p {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: #8c8b8b;
+  }
+  /* !CardPart */
+  .lower-div {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 2rem;
+  }
+
+  .rowCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex;
+    gap: 2.3em;
+    padding-bottom: 1.4rem;
+  }
+  .card {
+    padding: 1rem;
+    width: 28.2rem;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 5px solid whitesmoke;
+    transform: scale(1);
+    transition: all 0.4s ease-in-out;
+  }
+  .card:hover {
+    border-radius: 5px;
+    transform: scale(1.1);
+    transition: all 0.6s ease-in-out;
+  }
+
+  .logo {
+    padding: 10px;
+    background: rgb(255, 239, 239);
+    border-radius: 7px;
+  }
+  .start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .card-detail {
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .card-detail h3 {
+    font-size: 1.5rem;
+    white-space: 2px;
+    line-height: 2rem;
+    color: #1f3e72;
+    font-weight: 800;
+  }
+  .card-detail p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: #8c8b8b;
+  }
+  .card-btn {
+    font-size: 1.9rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 5px solid rgb(10, 118, 242);
+  }
+  .btn {
+    width: 100%;
+    font-size: 1rem;
+    background: whitesmoke;
+    padding: 0.5rem 3rem;
+    color: rgb(10, 118, 242);
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+    border: 2px solid rgb(215, 215, 234);
+    border-radius: 7px;
+  }
+  .btn:hover {
+    font-size: 1rem;
+    background: rgb(4, 72, 150);
+    border-radius: 7px;
+    padding: 0.5rem 3rem;
+    color: #ebf2ff;
+    font-weight: 600;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
+  /* !Right Image  */
+  .c-right {
+    margin-top: 2rem;
+    width: 23rem;
+    height: 27rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgb(245, 235, 235);
+    margin-bottom: 5rem;
+  }
+  .c-right img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 561px) and (max-width: 768px) {
+  .c-wrapper {
+    margin-bottom: 2.5rem;
+  }
+  .c-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .c-left {
+    margin-top: 3rem;
+  }
+  .upper-div {
+    padding-bottom: 0.5rem;
+  }
+  .upper-div h3 {
+    margin-left: 4rem;
+    font-size: 1.7rem;
+    white-space: 2px;
+    line-height: 2.5rem;
+    color: rgb(252, 155, 0);
+    font-weight: 600;
+  }
+  .upper-div h2 {
+    margin-left: 4rem;
+
+    font-size: 2.4rem;
+    white-space: 2px;
+    line-height: 3rem;
+    color: #1f3e72;
+    font-weight: 800;
+  }
+  .upper-div p {
+    margin-left: 4rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    color: #8c8b8b;
+  }
+  /* !CardPart */
+  .lower-div {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rowCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: fle;
+    gap: 2.3em;
+    padding-bottom: 1.4rem;
+  }
+  .card {
+    padding: 1rem;
+    width: 34rem;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 5px solid whitesmoke;
+    transform: scale(1);
+    transition: all 0.4s ease-in-out;
+  }
+  .card:hover {
+    border-radius: 5px;
+    transform: scale(1.1);
+    transition: all 0.6s ease-in-out;
+  }
+
+  .logo {
+    padding: 10px;
+    background: rgb(255, 239, 239);
+    border-radius: 7px;
+  }
+  .start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .card-detail {
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .card-detail h3 {
+    font-size: 1.5rem;
+    white-space: 2px;
+    line-height: 2rem;
+    color: #1f3e72;
+    font-weight: 800;
+  }
+  .card-detail p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: #8c8b8b;
+  }
+  .card-btn {
+    font-size: 1.9rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 5px solid rgb(10, 118, 242);
+  }
+  .btn {
+    width: 100%;
+    font-size: 1rem;
+    background: whitesmoke;
+    padding: 0.5rem 3rem;
+    color: rgb(10, 118, 242);
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+    border: 2px solid rgb(215, 215, 234);
+    border-radius: 7px;
+  }
+  .btn:hover {
+    font-size: 1rem;
+    background: rgb(4, 72, 150);
+    border-radius: 7px;
+    padding: 0.5rem 3rem;
+    color: #ebf2ff;
+    font-weight: 600;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
+  /* !Right Image  */
+  .c-right {
+    margin-top: 2rem;
+    width: 25rem;
+    height: 29rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgb(245, 235, 235);
+    margin-bottom: 5rem;
+  }
+  .c-right img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1030px) {
+  .c-wrapper {
+    margin-bottom: 2.5rem;
+  }
+  .c-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .c-left {
+    margin-top: 3rem;
+  }
+  .upper-div {
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .upper-div h3 {
+    font-size: 2rem;
+    white-space: 2px;
+    line-height: 2.5rem;
+    color: rgb(252, 155, 0);
+    font-weight: 600;
+    margin-left: 2rem;
+  }
+  .upper-div h2 {
+    font-size: 3rem;
+    white-space: 2px;
+    line-height: 3rem;
+    color: #1f3e72;
+    font-weight: 800;
+    margin-left: 2rem;
+  }
+  .upper-div p {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 2rem;
+    font-size: 1.1rem;
+    color: #8c8b8b;
+    margin-left: 2rem;
+  }
+  /* !CardPart */
+  .lower-div {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rowCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: fle;
+    gap: 2.3em;
+    padding-bottom: 1.4rem;
+  }
+  .card {
+    padding: 1rem;
+    width: 40rem;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 5px solid whitesmoke;
+    transform: scale(1);
+    transition: all 0.4s ease-in-out;
+  }
+  .card:hover {
+    border-radius: 5px;
+    transform: scale(1.1);
+    transition: all 0.6s ease-in-out;
+  }
+
+  .logo {
+    padding: 10px;
+    background: rgb(255, 239, 239);
+    border-radius: 7px;
+  }
+  .start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .card-detail {
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .card-detail h3 {
+    font-size: 1.5rem;
+    white-space: 2px;
+    line-height: 2rem;
+    color: #1f3e72;
+    font-weight: 800;
+  }
+  .card-detail p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: #8c8b8b;
+  }
+  .card-btn {
+    font-size: 1.9rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 5px solid rgb(10, 118, 242);
+  }
+  .btn {
+    width: 100%;
+    font-size: 1rem;
+    background: whitesmoke;
+    padding: 0.5rem 3rem;
+    color: rgb(10, 118, 242);
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+    border: 2px solid rgb(215, 215, 234);
+    border-radius: 7px;
+  }
+  .btn:hover {
+    font-size: 1rem;
+    background: rgb(4, 72, 150);
+    border-radius: 7px;
+    padding: 0.5rem 3rem;
+    color: #ebf2ff;
+    font-weight: 600;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
+  /* !Right Image  */
+  .c-right {
+    margin-top: 2rem;
+    width: 28rem;
+    height: 32rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgb(245, 235, 235);
+    margin-bottom: 5rem;
+  }
+  .c-right img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 1032px) and (max-width: 1120px) {
+  .c-wrapper {
+    margin-bottom: 3rem;
+  }
+  .c-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .c-left {
+    margin-top: 3rem;
+  }
+  .upper-div {
+    padding-bottom: 0.5rem;
+  }
+  .upper-div h3 {
+    font-size: 1.6rem;
+    white-space: 2px;
+    line-height: 2.5rem;
+    color: rgb(252, 155, 0);
+    font-weight: 600;
+  }
+  .upper-div h2 {
+    font-size: 2.3rem;
+    white-space: 2px;
+    line-height: 3rem;
+    color: #1f3e72;
+    font-weight: 800;
+  }
+  .upper-div p {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 2rem;
+    font-size: 1rem;
+    color: #8c8b8b;
+  }
+  /* !CardPart */
+  .lower-div {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .rowCard {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2.3em;
+    padding-bottom: 1.4rem;
+  }
+  .card {
+    padding: 1rem;
+    width: 15rem;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 3px solid whitesmoke;
+    transform: scale(1);
+    transition: all 0.4s ease-in-out;
+  }
+  .card:hover {
+    border-radius: 5px;
+    transform: scale(1.1);
+    transition: all 0.6s ease-in-out;
+  }
+  .start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .logo {
+    padding: 10px;
+    background: rgb(255, 239, 239);
+    border-radius: 7px;
+  }
+  .card-detail {
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .card-detail h3 {
+    font-size: 1.5rem;
+    white-space: 2px;
+    line-height: 2rem;
+    color: #1f3e72;
+    font-weight: 800;
+  }
+  .card-detail p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: #8c8b8b;
+  }
+  .card-btn {
+    font-size: 1.9rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 5px solid rgb(10, 118, 242);
+  }
+  .btn {
+    font-size: 1rem;
+    background: whitesmoke;
+    padding: 0.5rem 2rem;
+    color: rgb(10, 118, 242);
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+    border: 2px solid rgb(215, 215, 234);
+    border-radius: 7px;
+  }
+  .btn:hover {
+    font-size: 1rem;
+    background: rgb(4, 72, 150);
+    border-radius: 7px;
+    padding: 0.5rem 3rem;
+    color: #ebf2ff;
+    font-weight: 600;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
+  /* Right Image  */
+  .c-right {
+    margin-top: 3rem;
+    width: 31rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 5px solid rgb(245, 235, 235);
+    margin-bottom: 5rem;
+  }
+  .c-right img {
+    width: 100%;
+    height: 100%;
+  }
+}
